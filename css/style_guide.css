@@ -1,0 +1,79 @@
+/*#region Typography*/
+/* heading */
+h1{
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 10;
+}
+/* h1第二個版本 */
+.h1_1{
+    font-size: 44px;
+    line-height: 72px;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 10;
+}
+
+h3{
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 10;
+}
+
+/* paragraph */
+.p1{
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 10%;
+}
+
+.p2{
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 10%;
+}
+
+.p3{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 10%;
+}
+
+/* font_family */
+.en_font{
+    font-family: 'DM Sans', sans-serif;
+}
+.zh_font{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* font_weight */
+.fw_reg{
+    font-weight: 400;
+}
+.fw_med{
+    font-weight: 500;
+}
+.fw_b{
+    font-weight: 700;
+}
+
+/* letter-spacing */
+.en_ls{
+    letter-spacing: 0;
+}
+
+/*#endregion Typography*/
+
+
+/*#region Color*/
+.blue{
+    color: #3330e4;
+}
+.yellow{
+    color: #faea48;
+}
+/*#endregion Color*/
