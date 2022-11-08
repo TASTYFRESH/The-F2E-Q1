@@ -1,0 +1,17 @@
+.dis_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction請依據各段需求填寫 */
+}
+
+
+#schedule{
+    flex-direction: column;
+}
+
+#timeline{
+    margin-top: 150px;
+    width: 100%;
+    height: 340px;
+}

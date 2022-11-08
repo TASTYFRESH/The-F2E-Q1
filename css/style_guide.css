@@ -50,6 +50,20 @@ h3{
     font-family: 'Noto Sans TC', sans-serif;
 }
 
+/* no unicode-range; default to all characters */
+/* @font-face {
+    font-family: 'Noto Sans TC';
+    src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" ) format('woff2');
+} */
+
+/* latin */
+/* @font-face {
+    font-family: 'DM Sans';
+    unicode-range: U+00-024F; 
+    src: url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" ) format('woff2');
+} */
+
+
 /* font_weight */
 .fw_reg{
     font-weight: 400;
@@ -77,3 +91,12 @@ h3{
     color: #faea48;
 }
 /*#endregion Color*/
+
+
+
+/*#region Grid*/
+.container{
+    width: 1320px;
+    margin: auto;
+}
+/*#endregion Grid*/
