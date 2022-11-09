@@ -6,6 +6,31 @@
 }
 
 
+#text_ani{
+    width: 100%;
+    height: 96px;
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 130px;
+}
+
+.h1_ani{
+    color: transparent;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 96px;
+    letter-spacing: 10px;
+    line-height: 96px;
+    -webkit-text-stroke:  1px #ffffff ;
+    white-space: nowrap;
+}
+
+/* Noto Sans TC
+Medium 96px
+letter spacing:10%
+Line Height:28px
+stroke:
+#FFFFFF 100%
+outside 1 */
 
 #timeline_box{
     margin-top: 150px;
@@ -79,6 +104,7 @@
 
 
 
+
 #review_arrow{
     height: 37px;
     margin: 72px 0px;
@@ -110,11 +136,24 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-top: 55px;
+    margin-bottom: 255px;
 }
-.sponsor_block{
-    height: 280px;
+
+.sponsor_cube{
     width: 280px;
-    background-color: rgb(255, 255, 255);
+    height: 280px;
+    background-color: white;
     border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*#endregion  Sponsor*/
+
+#footer{
+    height: 150px;
+    width: 100%;
+    background-color: #FAEA48;
+}
+
