@@ -1,4 +1,12 @@
+body{
+    background-color: #3330e4;
+}
+
+
 /*#region Typography*/
+h1,h2,h3,.p1,.p2,.p3{
+    color: white;
+}
 /* heading */
 h1{
     font-size: 48px;
@@ -43,25 +51,28 @@ h3{
 }
 
 /* font_family */
-.en_font{
+/* .en_font{
     font-family: 'DM Sans', sans-serif;
 }
 .zh_font{
     font-family: 'Noto Sans TC', sans-serif;
-}
+} */
 
 /* no unicode-range; default to all characters */
 /* @font-face {
     font-family: 'Noto Sans TC';
-    src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" ) format('woff2');
+    src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700" ) format('woff2');
 } */
 
 /* latin */
 /* @font-face {
     font-family: 'DM Sans';
     unicode-range: U+00-024F; 
-    src: url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" ) format('woff2');
+    src: url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700" ) format('woff2');
 } */
+
+
+
 
 
 /* font_weight */

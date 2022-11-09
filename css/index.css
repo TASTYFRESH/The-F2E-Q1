@@ -2,16 +2,40 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction請依據各段需求填寫 */
-}
-
-
-#schedule{
     flex-direction: column;
 }
+
 
 #timeline{
     margin-top: 150px;
     width: 100%;
     height: 340px;
 }
+
+#review_award{
+    width: 100%;
+    flex-direction: row;
+    margin-top: 135px;
+}
+
+
+.ra_box{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+}
+
+.ra_box h3{
+    margin-bottom: 85px;
+}
+
+.a_title{
+    width: 85%;
+    margin-bottom: 38px;
+    display: grid;
+    grid-template-columns: 4fr repeat(2, 3fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 8px;
+}   
+.a_sub { grid-area: 2 / 1 / 3 / 4; }
