@@ -8,3 +8,5 @@ gsap.to(".loop", {
     duration: 20,
     repeat: -1,
 });
+
+console.log("11");
