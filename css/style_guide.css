@@ -6,12 +6,13 @@ body{
 /*#region Typography*/
 h1,h2,h3,.p1,.p2,.p3{
     color: white;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 /* heading */
 h1{
     font-size: 48px;
     line-height: 72px;
-    letter-spacing: 10;
+    letter-spacing: 10%;
 }
 /* h1第二個版本 */
 .h1_1{
@@ -22,13 +23,13 @@ h1{
 h2{
     font-size: 40px;
     line-height: 60px;
-    letter-spacing: 10;
+    letter-spacing: 10%;
 }
 
 h3{
     font-size: 32px;
     line-height: 48px;
-    letter-spacing: 10;
+    letter-spacing: 10%;
 }
 
 /* paragraph */
@@ -88,7 +89,7 @@ h3{
 
 /* letter-spacing */
 .en_ls{
-    letter-spacing: 0;
+    letter-spacing: 10%;
 }
 
 /*#endregion Typography*/
@@ -109,5 +110,11 @@ h3{
 .container{
     width: 1320px;
     margin: auto;
+    z-index: 2;
 }
 /*#endregion Grid*/
+
+
+.gradient_bg{
+    width: 100%;
+}

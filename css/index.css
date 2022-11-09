@@ -6,10 +6,35 @@
 }
 
 
-#timeline{
+
+#timeline_box{
     margin-top: 150px;
     width: 100%;
     height: 340px;
+    display: grid;
+    grid-template-columns: 2fr 4fr 3fr 4fr 3fr 4fr 2fr;
+    grid-template-rows: 6fr 7fr 10fr;
+}
+
+.line_arrow{
+    position: absolute;
+    height: 27px;
+    z-index: 3;
+}
+
+.line_arrow:nth-child(1){
+    left: calc(120/1320 *100%);
+}
+.line_arrow:nth-child(2){
+    left: calc(540/1320 *100%);
+}
+.line_arrow:nth-child(3){
+    left: calc(960/1320 *100%);
+}
+
+#timeline_img {
+    position: relative;
+    grid-area: 2 / 1 / 3 / 8; 
 }
 
 #review_award{
@@ -30,15 +55,19 @@
     margin-bottom: 85px;
 }
 
-#review .p1{
+#review{
+    padding: 0 7.5%;
+}
+
+#review .p1,#review .p2{
     margin-bottom: 15px;
+    text-align: center;
 }
 
 
 
-
 .a_title{
-    width: 85%;
+    width: 100%;
     margin-bottom: 38px;
     display: grid;
     grid-template-columns: 4fr repeat(2, 3fr);
@@ -47,3 +76,45 @@
     grid-row-gap: 8px;
 }   
 .a_sub { grid-area: 2 / 1 / 3 / 4; }
+
+
+
+#review_arrow{
+    height: 37px;
+    margin: 72px 0px;
+}
+
+/* 立即報名按鈕 */
+#regd_btn{
+    width: calc(646/ 1320 *100%);
+    height: 140px;
+    background-color: #FAEA48;
+    color: #3330E4;
+    border-radius: 75px;
+    margin-top: 210px;
+    margin-bottom: 287px;
+}
+
+
+#regd_btn h1{
+    color: #3330E4;
+    text-align: center;
+    line-height: 140px;
+}
+
+/*#region Sponsor*/
+#sponsor_list{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.sponsor_block{
+    height: 280px;
+    width: 280px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 28px;
+}
+/*#endregion  Sponsor*/
