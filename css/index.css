@@ -23,14 +23,9 @@
     -webkit-text-stroke:  1px #ffffff ;
     white-space: nowrap;
 }
-
-/* Noto Sans TC
-Medium 96px
-letter spacing:10%
-Line Height:28px
-stroke:
-#FFFFFF 100%
-outside 1 */
+#schedule{
+    margin-bottom: 560px;
+}
 
 #timeline_box{
     margin-top: 150px;
@@ -67,6 +62,15 @@ outside 1 */
     flex-direction: row;
     margin-top: 135px;
     align-items: start;
+}
+
+/* 黃色漸層 */
+#y_grad{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    z-index: -1;
 }
 
 
