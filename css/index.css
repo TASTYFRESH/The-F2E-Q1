@@ -1,3 +1,48 @@
+#nav_bar{
+    display: grid;
+    height: 125px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 30px;
+
+}
+
+.nav_bar_box_logo{
+    grid-column-start: 1;
+
+}
+
+#nav_bar_emp{
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+.nav_bar_box_bar{
+    grid-column-start: 6;
+    grid-column-end: 13;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 38px;
+}
+
+#nav_bar img{
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+}
+
+#login{
+    background-color: #FAEA48;
+    height: 52px;
+    width: 126px;
+    padding: auto;
+    border-radius: 100px;
+    border-style: none;
+    text-align: center;
+}
+
+/* section line */
+
 .dis_flex{
     display: flex;
     justify-content: center;
