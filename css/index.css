@@ -106,6 +106,13 @@
 }   
 .a_sub { grid-area: 2 / 1 / 3 / 4; }
 
+.a_bottom{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    grid-template-rows: 1fr;
+}
+
 
 
 
@@ -149,9 +156,6 @@
     height: 280px;
     background-color: white;
     border-radius: 28px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 /*#endregion  Sponsor*/
 
