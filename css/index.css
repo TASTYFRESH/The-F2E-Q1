@@ -61,7 +61,7 @@
     width: 100%;
 }
 
-#review_award{
+#ra_inner{
     width: 100%;
     flex-direction: row;
     margin-top: 135px;
@@ -115,8 +115,11 @@
     display: grid;
     grid-template-columns: 7fr 3fr;
     grid-template-rows: 1fr;
-}
 
+}
+.a_bottom > img{
+    vertical-align: middle
+}
 
 
 
