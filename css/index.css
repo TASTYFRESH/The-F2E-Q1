@@ -69,6 +69,7 @@ svg {
 
 .grainyFilter{
     filter: url(#noiseFilter) brightness(130%);
+    overflow: hidden;
 }
 
 #kv_f2e {
@@ -246,7 +247,7 @@ svg {
     height: auto;
     z-index: 127;
     position: relative;
-    top: 80px;
+    top: 0px;
 }
 
 #week3 {

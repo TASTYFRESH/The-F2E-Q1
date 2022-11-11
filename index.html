@@ -17,10 +17,6 @@
     <link rel="stylesheet" href="./css/style_guide.css">
     <link rel="stylesheet" href="./css/index.css">
 
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js"></script>
@@ -90,7 +86,7 @@
     </div>
 
     <div id="weekly">
-        <img id="cloud1" class="grainyFilter" src="./img/part4_1.svg" alt="">
+        <img id="cloud1" class="grainyFilter" src="./img/part4_1.svg" alt="" data-speed="0">
 
         <div id="week1" class="container-col-12">
             <div class="weekLayout">
@@ -107,9 +103,9 @@
             </div>
         </div>
 
-        <img id="cloud2" class="grainyFilter" src="./img/part4_2.svg" alt="">
+        <img id="cloud2" class="grainyFilter" src="./img/part4_2.svg" alt="" data-speed="-1">
 
-        <img id="cloud3" class="grainyFilter" src="./img/part4_3.svg" alt="">
+        <img id="cloud3" class="grainyFilter" src="./img/part4_3.svg" alt="" data-speed="0">
 
         <div id="week2" class="container-col-12">
             <div class="weekLayout">
@@ -126,9 +122,9 @@
             </div>
         </div>
 
-        <img id="cloud4" class="grainyFilter" src="./img/part4_4.svg" alt="">
+        <img id="cloud4" class=" grainyFilter" src="./img/part4_4.svg" alt="" data-speed="-1">
 
-        <img id="cloud5" class="grainyFilter" src="./img/part4_5.svg" alt="">
+        <img id="cloud5" class="grainyFilter" src="./img/part4_5.svg" alt="" data-speed="0">
 
         <div id="week3" class="container-col-12">
             <div class="weekLayout">
@@ -283,9 +279,10 @@
     </div>
 
 
-
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/paroller.js@1.4.7/dist/jquery.paroller.min.js"></script>
     <script src="./js/main.js"></script>
-
+    <script src="./js/animation_top_half.js"></script>
 </body>
 
 </html>
