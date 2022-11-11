@@ -105,7 +105,7 @@ let ra_ani = new gsap.timeline({
     .from(".ani_05_4", {
         y: -40,
         opacity: 0,
-        stagger: 0.8,
+        stagger: 0.5,
     })
     .from(".ani_05_5", {
         x: -100,
@@ -113,6 +113,6 @@ let ra_ani = new gsap.timeline({
         duration: 0.8,
     })
     .from(".ani_05_6", {
-        y: -20,
+        x: -40,
         opacity: 0,
     })

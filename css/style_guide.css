@@ -13,7 +13,7 @@ h1,h2,h3,.p1,.p2,.p3{
 h1{
     font-size: 48px;
     line-height: 72px;
-    letter-spacing: 10%;
+    letter-spacing: .1rem;
 }
 /* h1第二個版本 */
 .h1_1{
@@ -24,32 +24,32 @@ h1{
 h2{
     font-size: 40px;
     line-height: 60px;
-    letter-spacing: 10%;
+    letter-spacing: .1rem;
 }
 
 h3{
     font-size: 32px;
     line-height: 48px;
-    letter-spacing: 10%;
+    letter-spacing: .1rem;
 }
 
 /* paragraph */
 .p1{
     font-size: 24px;
     line-height: 36px;
-    letter-spacing: 10%;
+    letter-spacing: .1rem;
 }
 
 .p2{
     font-size: 20px;
     line-height: 28px;
-    letter-spacing: 10%;
+    letter-spacing: .1rem;
 }
 
 .p3{
     font-size: 16px;
     line-height: 20px;
-    letter-spacing: 10%;
+    letter-spacing: .1rem;
 }
 
 /* font_family */

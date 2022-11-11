@@ -128,7 +128,7 @@
     margin: 72px 0px;
 }
 
-/* 立即報名按鈕 */
+/*#region 立即報名按鈕 */
 #regd_btn{
     width: calc(646/ 1320 *100%);
     height: 140px;
@@ -137,6 +137,13 @@
     border-radius: 75px;
     margin-top: 210px;
     margin-bottom: 287px;
+    cursor: pointer;
+}
+#regd_btn:hover{
+    transform: scale(1.05);
+}
+#regd_btn:hover .fw_b{
+    font-size: 64px;
 }
 
 
@@ -145,6 +152,8 @@
     text-align: center;
     line-height: 140px;
 }
+
+/*#endregion  立即報名按鈕*/
 
 /*#region Sponsor*/
 #sponsor_list{
