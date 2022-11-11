@@ -9,7 +9,9 @@
     <!-- google_font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <!-- css -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style_guide.css">
@@ -27,31 +29,132 @@
 </head>
 
 <body>
-
     <div class="container">
         <div id="nav_bar">
             <div class="nav_bar_box_logo">
                 <img src="./img/F2E_01_x2_logo.png" alt="">
             </div>
-            <div id="nav_bar_emp"></div>
             <div class="nav_bar_box_bar">
                 <h3 class="fw_b">攻略資源</h3>
                 <h3 class="fw_b">|</h3>
                 <h3 class="fw_b">關卡資訊</h3>
                 <h3 class="fw_b">|</h3>
                 <h3 class="fw_b">求職專區</h3>
-                <button id="login"><h3 class="fw_b blue">登入</h3></button>
+                <button id="btn_login">
+                    <h3 class="fw_b blue">登入</h3>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="first_screen">
+        <div id="title" class="container-col-12">
+            <div>
+                <h1 class="fw_b">The F2E 4th</h1>
+                <h1 class="fw_b">互動式網頁設計</h1>
+            </div>
+        </div>
+        <div id="keyVision" class="container-col-12">
+
+            <svg>
+                <filter id='noiseFilter'>
+                    <feTurbulence type='fractalNoise' baseFrequency='6.30' numOctaves='8' stitchTiles='stitch' />
+                    <feComposite operator="in" in2="SourceGraphic" result="monoNoise" />
+                    <feBlend in="SourceGraphic" in2="monoNoise" mode="multiply" />
+                </filter>
+            </svg>
+
+            <img id="kv_f2e" class="grainyFilter" src="./img/F2E_01_keyvision_f2e.svg" alt="">
+            <img id="kv_the" class="grainyFilter" src="./img/F2E_01_keyvision_the.svg" alt="">
+            <img id="kv_4th" class="grainyFilter" src="./img/F2E_01_keyvision_4th.svg" alt="">
+
+            <button id="btn_signUp">
+                <h1 class="fw_b blue">我要報名</h1>
+            </button>
+
+            <div id="questions">
+                <h1 class="fw_b">你是否也有以下困擾？</h1>
+                <p class="p1 fw_reg">羨慕別人的酷酷網頁動畫？</p>
+                <h3 class="fw_reg line1">滿足不了同事的許願？</h3>
+                <h3 class="fw_reg line2">動畫技能樹太雜無從下手？</h3>
             </div>
         </div>
     </div>
 
+    <div id="gradient_bg_1">
+        <h1 class="h1_1 fw_b">UI 設計師 X 前端工程師</h1>
+    </div>
+
+    <div id="collab" class="container">
+        <h1 class="h1_1 fw_b">年度最強合作，三大主題來襲</h1>
+        <h3>各路廠商強強聯手，共同設計出接地氣的網頁互動挑戰關卡</h3>
+    </div>
+
+    <div id="weekly">
+        <img id="cloud1" class="grainyFilter" src="./img/part4_1.svg" alt="">
+
+        <div id="week1" class="container-col-12">
+            <div class="weekLayout">
+                <h2 class="fw_b blue">Week1</h2>
+                <h3 class="fw_b black">The F2E 活動網站設計</h3>
+                <div class="layout_row">
+                    <h3 class="fw_b black">視差滾動</h3>
+                    <img src="./img/week1_arrow.svg" alt="">
+                    <p class="p1 fw_reg black">版塊設計</p>
+                </div>
+                <button class="moreInfo">
+                    <p class="p2 fw_reg">查看更多細節</p>
+                </button>
+            </div>
+        </div>
+
+        <img id="cloud2" class="grainyFilter" src="./img/part4_2.svg" alt="">
+
+        <img id="cloud3" class="grainyFilter" src="./img/part4_3.svg" alt="">
+
+        <div id="week2" class="container-col-12">
+            <div class="weekLayout">
+                <h2 class="fw_b blue">Week2</h2>
+                <h3 class="fw_b black">Canvas</h3>
+                <div class="layout_row">
+                    <p class="p1 fw_reg black">凱鈿行動科技</p>
+                    <img src="./img/week2_arrow.svg" alt="">
+                    <h3 class="fw_b black">今晚，我想來點點簽</h3>
+                </div>
+                <button class="moreInfo">
+                    <p class="p2 fw_reg">查看更多細節</p>
+                </button>
+            </div>
+        </div>
+
+        <img id="cloud4" class="grainyFilter" src="./img/part4_4.svg" alt="">
+
+        <img id="cloud5" class="grainyFilter" src="./img/part4_5.svg" alt="">
+
+        <div id="week3" class="container-col-12">
+            <div class="weekLayout">
+                <h2 class="fw_b blue">Week3</h2>
+                <h3 class="fw_b black">Scrum 新手村</h3>
+                <div class="layout_row">
+                    <h3 class="fw_b black">JS draggable</h3>
+                    <img src="./img/week3_arrow.svg" alt="">
+                    <p class="p1 fw_reg black">鈦坦科技</p>
+                </div>
+                <button class="moreInfo">
+                    <p class="p2 fw_reg">查看更多細節</p>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
     <!-- 分隔線 -->
 
     <div id="text_ani">
-        <div class="h1_ani loop"><span>MATCH SCHEDULE MATCH SCHEDULE  MATCH SCHEDULE MATCH SCHEDULE MATCH SCHEDULE MATCH SCHEDULE MATCH SCHEDULE</span></div>
+        <div class="h1_ani loop"><span>MATCH SCHEDULE MATCH SCHEDULE MATCH SCHEDULE MATCH SCHEDULE MATCH SCHEDULE MATCH
+                SCHEDULE MATCH SCHEDULE</span></div>
     </div>
 
-    
+
 
     <div class="container">
         <!-- schedule -->
@@ -81,7 +184,7 @@
                     <img src="./img/F2E_04_05_x1_lineArrow.svg" alt="" class="line_arrow">
                     <img src="./img/F2E_04_05_x1_lineArrow.svg" alt="" class="line_arrow">
                     <img src="./img/F2E_04_05_x1_lineArrow.svg" alt="" class="line_arrow">
-                    <img src="./img/F2E_04_03_x2_line.svg" alt=""> 
+                    <img src="./img/F2E_04_03_x2_line.svg" alt="">
                 </div>
                 <!-- 第三層 -->
                 <span></span>
@@ -89,9 +192,9 @@
                 <span></span>
                 <div>
                     <div class="p2">依賽程登錄作品</div>
-                    <div class="p2">10/31(一)  12:00pm</div>
+                    <div class="p2">10/31(一) 12:00pm</div>
                     <div class="p2">至</div>
-                    <div class="p2">11/28(一)  12:00pm</div>
+                    <div class="p2">11/28(一) 12:00pm</div>
                 </div>
                 <span></span>
                 <div class="p2">主題豐厚獎金等著你</div>
@@ -106,10 +209,10 @@
 
     <div class="container">
         <!-- review+award  -->
-        <div  class="dis_flex">
+        <div class="dis_flex">
             <h1 class=" fw_b">區區修煉已經無法滿足了嗎？還有比賽等著你！</h1>
             <div id="review_award" class="dis_flex">
-                <div  class="dis_flex ra_box" id="review">
+                <div class="dis_flex ra_box" id="review">
                     <h3>評審機制</h3>
                     <div class="p1 fw_b">初選</div>
                     <div class="p2">將由六角學院前端、UI 評審進行第一波篩選。
@@ -120,7 +223,7 @@
                     </div>
                 </div>
                 <!-- 獎項(右) -->
-                <div  class="dis_flex ra_box">
+                <div class="dis_flex ra_box">
                     <h3>獎項</h3>
                     <div class="a_title">
                         <div class="p1 fw_b">初選佳作</div>
@@ -135,8 +238,8 @@
                         <div class="p1 ">NTD 3,000/位</div>
                         <div class="p2 a_sub">每週主題各二名，設計一位、前端一位</div>
                     </div>
-                    
-                    
+
+
                     <div class="a_title">
                         <div class="p1 fw_b">團體企業獎</div>
                         <div class="p1 ">共三位</div>
