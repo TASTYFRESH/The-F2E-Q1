@@ -73,7 +73,7 @@ let timeline_ani = new gsap.timeline({
 
 let ra_ani = new gsap.timeline({
     scrollTrigger: {
-        markers: true,
+        // markers: true,
         trigger: "#review_award",
         start: "top 50%",
         end: "bottom 80%",
