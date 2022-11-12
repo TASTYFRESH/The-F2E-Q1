@@ -2,7 +2,7 @@ gsap.from(".ani_04_1", {
     scrollTrigger: {
         trigger: "#schedule",
         // markers:true,
-        start: "top 18%",
+        start: "top 35%",
         end: "bottom 100%",
         // toggleActions:"restart none none reverse"
     },
@@ -17,7 +17,7 @@ gsap.from(".ani_04_t", {
     scrollTrigger: {
         trigger: "#timeline_img",
         // markers: true,
-        start: "top 50%",
+        start: "top 65%",
         end: "bottom 100%",
         // toggleActions: "restart none none reverse"
     },

@@ -53,12 +53,12 @@ h3{
 }
 
 /* font_family */
-/* .en_font{
+.en_font{
     font-family: 'DM Sans', sans-serif;
 }
 .zh_font{
     font-family: 'Noto Sans TC', sans-serif;
-} */
+}
 
 /* no unicode-range; default to all characters */
 /* @font-face {
