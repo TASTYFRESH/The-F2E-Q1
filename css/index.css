@@ -321,14 +321,9 @@ svg {
     -webkit-text-stroke: 1px #ffffff;
     white-space: nowrap;
 }
-
-/* Noto Sans TC
-Medium 96px
-letter spacing:10%
-Line Height:28px
-stroke:
-#FFFFFF 100%
-outside 1 */
+#schedule{
+    margin-bottom: 560px;
+}
 
 #timeline_box {
     margin-top: 150px;
@@ -362,11 +357,25 @@ outside 1 */
     grid-area: 2 / 1 / 3 / 8;
 }
 
-#review_award {
+
+#white_line{
+    width: 100%;
+}
+
+#ra_inner{
     width: 100%;
     flex-direction: row;
     margin-top: 135px;
     align-items: start;
+}
+
+/* 黃色漸層 */
+#y_grad{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    z-index: -1;
 }
 
 
@@ -402,8 +411,16 @@ outside 1 */
     grid-row-gap: 8px;
 }
 
-.a_sub {
-    grid-area: 2 / 1 / 3 / 4;
+
+.a_bottom{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    grid-template-rows: 1fr;
+
+}
+.a_bottom > img{
+    vertical-align: middle
 }
 
 
@@ -414,8 +431,10 @@ outside 1 */
     margin: 72px 0px;
 }
 
-/* 立即報名按鈕 */
-#regd_btn {
+
+/*#region 立即報名按鈕 */
+#regd_btn{
+
     width: calc(646/ 1320 *100%);
     height: 140px;
     background-color: #FAEA48;
@@ -423,6 +442,13 @@ outside 1 */
     border-radius: 75px;
     margin-top: 210px;
     margin-bottom: 287px;
+    cursor: pointer;
+}
+#regd_btn:hover{
+    transform: scale(1.05);
+}
+#regd_btn:hover .fw_b{
+    font-size: 64px;
 }
 
 
@@ -431,6 +457,8 @@ outside 1 */
     text-align: center;
     line-height: 140px;
 }
+
+/*#endregion  立即報名按鈕*/
 
 /*#region Sponsor*/
 #sponsor_list {
@@ -449,9 +477,6 @@ outside 1 */
     height: 280px;
     background-color: white;
     border-radius: 28px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /*#endregion  Sponsor*/
