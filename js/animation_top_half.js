@@ -179,5 +179,5 @@ var paraScroll_cloud4 = gsap.timeline({
 paraScroll_cloud2.from("#cloud2", { y: 200, duration: 2, ease: Power1 })
     .to("#cloud2", { y: -300, duration: 3, ease: Power1 })
 
-paraScroll_cloud4.from("#cloud4", { y: -80, duration: 1, ease: Power1 })
-    .to("#cloud4", { y: 105, duration: 4, ease: Power1 })
+paraScroll_cloud4.from("#cloud4", { y: -350, duration: 2, ease: Power1 })
+    .to("#cloud4", { y: 10, duration: 0.1, ease: Power1 })

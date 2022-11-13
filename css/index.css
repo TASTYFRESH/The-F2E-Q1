@@ -54,6 +54,36 @@ svg {
     text-align: center;
 }
 
+#btn_login:hover{
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FAEA48;
+}
+
+#btn_login:hover h3{
+    color: #FAEA48;
+}
+
+#btn_login:active{
+    background-color: transparent;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #FAEA48;
+}
+
+#btn_login:active h3{
+    color: #FAEA48;
+}
+
+#btn_login:disabled{
+    background-color: #F0EBB7;
+}
+
+#btn_login:disabled h3{
+    color: #7E7CDB;
+}
+
 #title {
     margin-top: 81px;
 }
@@ -65,11 +95,6 @@ svg {
 
 #keyVision {
     grid-template-rows: 970px 1fr;
-}
-
-.grainyFilter{
-    filter: url(#noiseFilter) brightness(130%);
-    overflow: hidden;
 }
 
 #kv_f2e {
@@ -126,6 +151,36 @@ svg {
     top: -2px;
 }
 
+#btn_signUp:hover{
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FAEA48;
+}
+
+#btn_signUp:hover h1{
+    color: #FAEA48;
+}
+
+#btn_signUp:active{
+    background-color: transparent;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #FAEA48;
+}
+
+#btn_signUp:active h1{
+    color: #FAEA48;
+}
+
+#btn_signUp:disabled{
+    background-color: #F0EBB7;
+}
+
+#btn_signUp:disabled h1{
+    color: #7E7CDB;
+}
+
 #questions {
     grid-column-start: 1;
     grid-column-end: 13;
@@ -136,19 +191,19 @@ svg {
     align-items: center;
 }
 
-#questions p{
+#questions p {
     margin-top: 400px;
     position: relative;
     left: 225px;
 }
 
-#questions .line1{
+#questions .line1 {
     margin-top: 300px;
     position: relative;
     right: 325px;
 }
 
-#questions .line2{
+#questions .line2 {
     margin-top: 300px;
 }
 
@@ -192,7 +247,7 @@ svg {
 #week1 {
     z-index: 132;
     position: relative;
-    top: -500px;
+    top: -600px;
 }
 
 #week1>div {
@@ -258,7 +313,7 @@ svg {
 
 #week3>div {
     grid-column-start: 2;
-    grid-column-end: 7;
+    grid-column-end: 8;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -278,18 +333,32 @@ svg {
     border-style: none;
 }
 
-.weekLayout button{
+.moreInfo:hover {
+    background-color: #201DC7;
+}
+
+.moreInfo:active {
+    background-color: #3330E4;
+    border-style: solid;
+    border-color: #F3F3F3;
+}
+
+.moreInfo:disabled {
+    background-color: #7E7CDB;
+}
+
+.weekLayout button {
     margin-top: 15px;
 }
 
-.weekLayout img{
+.weekLayout img {
     position: relative;
     top: 5px;
     margin-left: 10px;
     margin-right: 13px;
 }
 
-.weekLayout div p{
+.weekLayout div p {
     position: relative;
     top: 10px;
 }
@@ -321,7 +390,8 @@ svg {
     -webkit-text-stroke: 1px #ffffff;
     white-space: nowrap;
 }
-#schedule{
+
+#schedule {
     margin-bottom: 560px;
 }
 
@@ -358,11 +428,11 @@ svg {
 }
 
 
-#white_line{
+#white_line {
     width: 100%;
 }
 
-#ra_inner{
+#ra_inner {
     width: 100%;
     flex-direction: row;
     margin-top: 135px;
@@ -370,7 +440,7 @@ svg {
 }
 
 /* 黃色漸層 */
-#y_grad{
+#y_grad {
     width: 100%;
     position: absolute;
     left: 0;
@@ -411,18 +481,19 @@ svg {
     grid-row-gap: 8px;
 }
 
-.a_sub{
+.a_sub {
     grid-area: 2 / 1 / 3 / 3;
 }
 
-.a_bottom{
+.a_bottom {
     width: 100%;
     display: grid;
     grid-template-columns: 8fr 4fr;
     grid-template-rows: 1fr;
 
 }
-.a_bottom > img{
+
+.a_bottom>img {
     vertical-align: middle
 }
 
@@ -436,7 +507,7 @@ svg {
 
 
 /*#region 立即報名按鈕 */
-#regd_btn{
+#regd_btn {
 
     width: calc(646/ 1320 *100%);
     height: 140px;
@@ -447,7 +518,8 @@ svg {
     margin-bottom: 287px;
     cursor: pointer;
 }
-#regd_btn:hover{
+
+#regd_btn:hover {
     transform: scale(1.05);
 }
 
